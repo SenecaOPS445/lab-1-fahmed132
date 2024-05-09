@@ -12,29 +12,40 @@ test_b (__main__.lab1a.test_b)
 test_0 (__main__.lab1b.test_0)
 [Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py ... ok
 test_a (__main__.lab1b.test_a)
-[Lab 1] - [Investigation 4] - string objects & printing - Test for errors running: ./lab1b.py ... FAIL
+[Lab 1] - [Investigation 4] - string objects & printing - Test for errors running: ./lab1b.py ... ok
+test_a1 (__main__.lab1b.test_a1)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct shebang line: ./lab1b.py ... ok
+test_b (__main__.lab1b.test_b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct output "How old are you Isaac?": ./lab1b.py ... ok
+test_0 (__main__.lab1c.test_0)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for file creation: ./lab1c.py ... ok
+test_a (__main__.lab1c.test_a)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for errors running: ./lab1c.py ... ok
+test_a1 (__main__.lab1c.test_a1)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for correct shebang line: ./lab1c.py ... ok
+test_b (__main__.lab1c.test_b)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test output for correct output "Isaac is 72 years old!": ./lab1c.py ... ok
+test_0 (__main__.lab1d.test_0)
+[Lab 1] - [Investigation 5] - math operators - Test for file creation: ./lab1d.py ... ok
+test_a (__main__.lab1d.test_a)
+[Lab 1] - [Investigation 5] - math operators - Test for errors running: ./lab1d.py ... ok
+test_a1 (__main__.lab1d.test_a1)
+[Lab 1] - [Investigation 5] - math operators - Test for correct shebang line: ./lab1d.py ... ok
+test_b (__main__.lab1d.test_b)
+[Lab 1] - [Investigation 5] - math operators - Test output for correct output "10 + 2 * 5 = 20": ./lab1d.py ... ok
 
-======================================================================
-FAIL: test_a (__main__.lab1b.test_a)
-[Lab 1] - [Investigation 4] - string objects & printing - Test for errors running: ./lab1b.py
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/fahmed132/ops445/lab1/lab-1-fahmed132/./CheckLab1.py", line 108, in test_a
-    self.assertEqual(return_code, 0, msg=error_output)
-AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see the error)
+Ran 16 tests in 0.415s
 
-----------------------------------------------------------------------
-Ran 6 tests in 0.224s
-
-FAILED (failures=1)
+OK
 OPS435 Lab Report - System Information for running ./CheckLab1.py
 =================================================================
     User login name: fahmed132
     Linux system name: fedora
     Linux system version: Fedora release 40 (Forty)
     Python executable: /usr/bin/python3
-    Python version: 3122
+    Python version: 3123
     OS Platform: linux
     Working Directory: /home/fahmed132/ops445/lab1/lab-1-fahmed132
-    Start at: Thu May  9 16:59:29 2024
+    Start at: Thu May  9 17:26:59 2024
 =================================================================
